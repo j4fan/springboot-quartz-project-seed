@@ -1,0 +1,1 @@
+var apiUrl = "http://localhost:8081/quartz-project/"

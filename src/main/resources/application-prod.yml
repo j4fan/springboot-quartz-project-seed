@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    hikari-read:
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3307/mydb?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
+    hikari-write:
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3307/mydb?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
+    qrtz:
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3307/mydb?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
