@@ -11,7 +11,7 @@
 * ...
 
 ## 3.后端api
-####后端api遵守**restful-api**设计原则
+#### 后端api遵守**restful-api**设计原则
 ![image.png](https://upload-images.jianshu.io/upload_images/5834071-73de27e91ab57d10.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 项目启动后可访问swagger2链接进行api测试
 <http://localhost:8081/quartz-project/swagger-ui.html/>  
@@ -114,11 +114,11 @@ public class TestJob implements Job {
     }
 }
 ```
-##6.特性
+## 6.特性
 * springboot,quartz完美继承，摒弃了properties文件配置的方式，用spring管理quartz的声明周期
 * 拆箱即用，只需简单配置，初始化数据库，写好Job类，即可轻松实现定时任务调度
 
-##7.说明
+## 7.说明
 由于本项目设定的场景为定时任务，因此默认创建的Job自带的trigger为cronTrigger,对应的misFire的策略为withMisfireHandlingInstructionDoNothing，这些都是根据我的场景定制的，同学们可以自行修改。quartz支持其他形式的trigger,例如只执行一次的，间隔一段时间执行的...有兴趣的同学可以研究后扩展我的api,
 创建Job的代码就不贴出来了，quartz官方地址在此，文档很详细：
 
