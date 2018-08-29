@@ -124,4 +124,10 @@ public class TestJob implements Job {
 
 <http://www.quartz-scheduler.org/>
 
+## 8.部署 
+支持多环境部署,以正式环境为例:
+```
+mvn clean package -P prod
+java -jar java -jar target/springboot-quartz-project-seed.jar
+```
 

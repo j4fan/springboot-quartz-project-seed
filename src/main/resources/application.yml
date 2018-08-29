@@ -4,10 +4,9 @@ server:
     context-path: /quartz-project
 spring:
   profiles:
-    active: dev
+    active: @profileActive@
   application:
     name: quartz-project
-
 
 logging:
   config: classpath:log4j2.xml
