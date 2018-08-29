@@ -128,6 +128,6 @@ public class TestJob implements Job {
 支持多环境部署,以正式环境为例:
 ```
 mvn clean package -P prod
-java -jar java -jar target/springboot-quartz-project-seed.jar
+java -jar target/springboot-quartz-project-seed.jar
 ```
 
