@@ -115,7 +115,7 @@ public class TestJob implements Job {
 }
 ```
 ## 6.特性
-* springboot,quartz完美继承，摒弃了properties文件配置的方式，用spring管理quartz的声明周期
+* springboot,quartz完美集成，摒弃了properties文件配置的方式，用spring管理quartz的生命周期
 * 拆箱即用，只需简单配置，初始化数据库，写好Job类，即可轻松实现定时任务调度
 
 ## 7.说明
