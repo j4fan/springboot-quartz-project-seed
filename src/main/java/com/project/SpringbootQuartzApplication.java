@@ -11,7 +11,7 @@ public class SpringbootQuartzApplication {
 
         SpringApplication springApplication = new SpringApplication(SpringbootQuartzApplication.class);
         springApplication.addListeners(new GlobalConf());
-        springApplication.run();
+        springApplication.run(args);
 
     }
 

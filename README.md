@@ -127,7 +127,7 @@ public class TestJob implements Job {
 ## 8.部署 
 支持多环境部署,以正式环境为例:
 ```
-mvn clean package -P prod
-java -jar target/springboot-quartz-project-seed.jar
+mvn clean package 
+java -jar target/springboot-quartz-project-seed.jar --spring.profiles.active=prod
 ```
 
