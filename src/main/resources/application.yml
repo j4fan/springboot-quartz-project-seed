@@ -4,7 +4,7 @@ server:
     context-path: /quartz-project
 spring:
   profiles:
-    active: dev
+    active: @profileActive@
   application:
     name: quartz-project
 
