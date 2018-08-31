@@ -124,6 +124,17 @@ public class TestJob implements Job {
 
 <http://www.quartz-scheduler.org/>
 
+>Cron-Expressions are used to configure instances of CronTrigger. Cron-Expressions are strings that are actually made up of seven sub-expressions, that describe individual details of the schedule. These sub-expression are separated with white-space, and represent: 
+* Seconds
+* Minutes
+* Hours
+* Day-of-Month
+* Month
+* Day-of-Week
+* Year (optional field)
+
+
+
 ## 8.部署 
 支持多环境部署,以正式环境为例:
 ```
